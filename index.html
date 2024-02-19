@@ -17,128 +17,89 @@
 
   <body class="raleway-font">
     <section class="">
-      <header class="mx-48">
-        <!-- navbar start -->
-        <nav>
-          <div class="navbar px-8 bg-base-100">
-            <div class="navbar-start">
-              <div class="dropdown">
-                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M4 6h16M4 12h8m-8 6h16"
-                    />
-                  </svg>
-                </div>
-                <ul
-                  tabindex="0"
-                  class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
-                >
-                  <li><a>Home</a></li>
-                  <li><a>About</a></li>
-                  <li><a>Destination</a></li>
-                  <li><a>Search</a></li>
+      <header class="container mx-auto mt-4 ">
+        <!-- nav bar   -->
+        <nav class="flex  flex-col md:flex-row justify-between">
+            <h2 class="font-bold text-4xl">Bus-Ticket</h2>
+            <div>
+                <ul class="text-xl flex gap-4">
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Destination</li>
+                    <li>Search</li>
                 </ul>
-              </div>
-              <a class="btn btn-ghost text-xl">HF-Ticket</a>
             </div>
-            <div class="navbar-center lg:flex">
-              <ul class="menu menu-horizontal px-1">
-                <li><a>Home</a></li>
-                <li><a>About</a></li>
-                <li><a>Destination</a></li>
-                <li><a>Search</a></li>
-              </ul>
-            </div>
-            <div class="navbar-end">
-              <button
-                class="btn text-[#1DD100] border-[#1DD100] bg-[#1DD1000D]"
-              >
-                Bus <img src="images/bus-icon.png" alt="" />
-              </button>
-            </div>
-          </div>
+            <button class="btn btn-success text-green-800 bg-green-100 hover:text-white">Bus <img src="./images/bus-icon.png" alt="bus-icon"> </button>
         </nav>
-        <!-- navbar end -->
 
-        <section class="ml-28 p-7 h-auto">
-          <div
-            class="bg-[url(images/banner.png)] raleway-font my-9 bg-no-repeat p-48 flex"
-          >
-            <div
-              class="text-center flex flex-col justify-center h-full items-center"
-            >
-              <h1 class="text-white text-5xl font-semibold">
-                End-to-End Travel with
-              </h1>
-              <h1 class="text-[#1DD100] text-5xl font-semibold m-4">
-                HF Paribahan
-              </h1>
-              <p class="text-white font-medium">
-                Welcome our HF Paribahan.This the Bus-service/paribahan in
-                Bangladesh. If you want to travel
-              </p>
-              <p class="text-white font-medium">
-                anywhere in Bangladesh Then you can try our buses.
-              </p>
-              <button
-                type="submit"
-                class="btn mx-4 bg-[#1DD100] w-28 border-none font-bold"
-              >
-                Buy Tickets
-              </button>
-            </div>
-          </div>
-        </section>
+        <section class="bg-[linear-gradient(90deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('./images/banner.png')] bg-no-repeat bg-center bg-cover text-center rounded-3xl mt-7 mb-52 ">
+            <h1 class="text-6xl text-white pt-16 py-6 font-extrabold">End-to-End Travel with </h1>  
+            <p class="text-green-500 text-6xl font-extrabold"> safi Paribahan</p> 
+            <p class="text-white">"Ride into Savings: Secure Your Seat Now with Our Exclusive Bus Ticket Sale!"</p>
+            <p class="text-white">Last Chance to Save! Grab Your Seat: Exclusive Bus Ticket Sale</p>
+            <button onclick="location.href='#ha'"  class="btn btn-success bg-[#1DD100] text-black font-bold mt-10"> Buy Tickets </button>
+            <!-- banner three box design -->
+            <div class="flex justify-center gap-6">
+                <div class=" w-60 h-28  bg-white flex justify-center items-center translate-y-10 rounded-xl border-b-4  border-b-green-600">
+                    <img src="./images/people.png" alt="people">
+                    <div class="pl-4 text-left">
+                        <h2 class="text-3xl">500K+</h2>
+                        <p class="text-black/60">Registered users</p>
+                    </div>
+                </div>
 
-        <section class="flex flex-col justify-center">
-          <h1 class="font-extrabold text-center text-3xl my-6">
-            Best offers for you
-          </h1>
-          <div class="flex gap-3 ml-20 justify-center">
-            <div
-              class="bg-[url(images/coupon2.png)] bg-no-repeat flex justify-start items-center w-2/5 h-56"
-            >
-              <div class="p-10">
-                <h1 class="text-4xl font-extrabold">15% OFF</h1>
-                <h5 class="text-xl font-bold">on your next purchase</h5>
-                <p>use by january 2024</p>
-              </div>
-              <div class="p-10">
-                <h1 class="text-4xl font-extrabold">New15</h1>
-                <p>Coupon Code</p>
-              </div>
+                <div class=" w-60 h-28  bg-white flex justify-center items-center translate-y-10 rounded-xl border-b-4  border-b-green-600">
+                    <img src="./images/ticket-cupon.png" alt="people">
+                    <div class="pl-4 text-left">
+                        <h2 class="text-3xl">1.7 lacks+</h2>
+                        <p class="text-black/60">Tickets sold</p>
+                    </div>
+                </div>
+
+                <div class=" w-60 h-28  bg-white flex justify-center items-center translate-y-10 rounded-xl border-b-4  border-b-green-600">
+                    <img src="./images/stoppage.png" alt="people">
+                    <div class="pl-4 text-left">
+                        <h2 class="text-3xl">80K+</h2>
+                        <p class="text-black/60"> Rental partners</p>
+                    </div>
+                </div>
             </div>
-            <div
-              class="bg-[url(images/coupon1.png)] bg-no-repeat p-5 flex justify-start items-center w-2/4 h-56"
-            >
-              <div class="p-10">
-                <h1 class="text-4xl font-extrabold">20% OFF</h1>
-                <h5 class="text-xl font-bold">on your next purchase</h5>
-                <p>use by january 2024</p>
-              </div>
-              <div class="p-10">
-                <h1 class="text-5xl font-bold">New15</h1>
-                <p>Coupon Code</p>
-              </div>
-            </div>
-          </div>
         </section>
-        <div class="flex justify-center">
-          <button class="btn text-[#1DD100] my-6 border-[#1DD100]">
-            See All Offers
-          </button>
-        </div>
-      </header>
+        <section class=" container mx-auto text-center mb-8">
+          <h2 class="text-4xl font-extrabold pb-9">Best offers for you</h2>
+      <div class="flex flex-col md:flex-row gap-10 ">
+          <!-- coupon discount card1  -->
+          <div class="bg-[url(images/coupon2.png)] bg-cover p-16 w-1/2 bg-no-repeat">
+           <div class="flex gap-12 mr-5 justify-around items-center py-10">
+              <div>
+                  <h2 class="inter font-extrabold text-4xl">15% OFF</h2>
+                 <p class="inter font-bold">on your next purchase</p>
+                 <p class="inter text-black/60">use by January 2024  </p>
+              </div>
+              <div class="pl-24">
+                  <h2 class="font-extrabold text-4xl pl-24">NWE15</h2>
+                  <p class="text-black/60">Coupon code </p>
+              </div>
+           </div>
+          </div>     
+          <!-- coupon discount card2  -->
+          <div class="bg-[url(images/coupon1.png)] bg-cover p-12 w-1/2  bg-no-repeat">
+           <div class="flex gap-12 justify-around items-center py-10">
+              <div>
+                  <h2 class="inter font-extrabold text-4xl">20% OFF</h2>
+                 <p class="inter font-bold">on your next purchase</p>
+                 <p class="inter text-black/60">use by January 2024  </p>
+              </div>
+              <div class="pl-24">
+                  <h2 class="font-extrabold text-4xl pl-24">Couple 20</h2>
+                  <p class="text-black/60">Coupon Code  </p>
+              </div>
+           </div>
+          </div>      
+      </div>
+      <button class="btn btn-outline btn-success mt-8 font-bold">See All Offers</button>
+      </section>
+    </header>
       <main>
         <section
           class="border border-t-[#1DD100] h-full rounded-3xl bg-[#F7F8F8]"
