@@ -6,3 +6,7 @@
 .raleway-font {
   font-family: "Raleway", sans-serif;
 }
+.selected {
+  background-color: #1DD100  !important;
+  color: white !important;
+}
